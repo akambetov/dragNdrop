@@ -49,6 +49,7 @@ body {
 .placeholder {
   width: 150px;
   height: 66px;
+  background-color: #e5e5e5;
 }
 
 .start {
@@ -65,7 +66,9 @@ body {
 
 /* Drag n Drop */
 .hold {
- border: 5px solid #eee;
+ /* border: 5px solid #eee; */
+ background: linear-gradient(90deg, #209cff 0%, #229efd 100%);
+ color: #fff;
 }
 
 .hide {
@@ -73,5 +76,7 @@ body {
 }
 
 .hovered {
-  border-top: 2px solid #8ed7ed;
+  /* border-top: 2px solid #8ed7ed; */
+  background: linear-gradient(90deg, #68e0cf 0%, #84fab0 179.25%);
+  border-radius: 20px;
 }
